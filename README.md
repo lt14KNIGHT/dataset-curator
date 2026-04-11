@@ -1,20 +1,3 @@
----
-title: Dataset Curator
-emoji: 🧹
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-tags:
-  - openenv
-  - reinforcement-learning
-  - agent
-  - dataset-curation
-  - data-cleaning
-  - pii-redaction
-  - quality-audit
-pinned: false
----
-
 # 🧹 Dataset Curator — OpenEnv RL Environment
 
 [![HF Space](https://img.shields.io/badge/🤗%20HuggingFace-Space-blue)](https://lt14knight-dataset-curator.hf.space)
