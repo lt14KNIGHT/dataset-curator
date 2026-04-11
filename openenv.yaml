@@ -1,0 +1,22 @@
+spec_version: 1
+name: dataset-curator
+type: space
+runtime: fastapi
+app: server.app:app
+port: 7860
+
+tasks:
+  - name: html_strip
+    description: "Strip HTML tags and decode entities from web-scraped text records"
+    grader: true
+    difficulty: easy
+
+  - name: pii_redact
+    description: "Redact personally identifiable information (emails, phones, addresses) from text records"
+    grader: true
+    difficulty: medium
+
+  - name: quality_audit
+    description: "Classify instruction-response pairs as keep, fix, or reject based on quality"
+    grader: true
+    difficulty: hard
